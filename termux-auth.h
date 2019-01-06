@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 #ifdef __ANDROID__
-# define AUTH_HASH_FILE_PATH "/data/data/com.termux/files/home/.termux_authinfo"
+# define AUTH_HASH_FILE_PATH "/data/data/pl.sviete.dom/files/home/.termux_authinfo"
 #else
 # define AUTH_HASH_FILE_PATH "/tmp/access_hash"
 #endif
